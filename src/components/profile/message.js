@@ -1,4 +1,4 @@
-import { useUserContext } from "../contexts/user"
+import { useUserContext } from "../../contexts/user"
 
 export const Message = () => {
     const user = useUserContext();
